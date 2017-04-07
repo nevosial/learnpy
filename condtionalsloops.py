@@ -29,6 +29,21 @@ def main():
         str =  ' this is true' if x > y else 'this is not true'
     print(str)
 
+# the while loop in Python
+names = ['Dan', 'Vic', 'Kew', 'Stan']
+i = 0
+while(i < len(names)):
+    print(i)
+    i += 1
+    
+# fibonaci numbers using while
+    a, b = 0, 1
+    while b < 50:
+        #print(b, end=' ')
+        print(b)
+        a, b = b, a + b
+
+
 # the for loop in Python
 names = [1,2, 3, 4]
     for d in names:
