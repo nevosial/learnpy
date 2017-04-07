@@ -34,4 +34,30 @@ def multi(*args):
         result = result + i;
     return result;
 
-print(multi(1, 2, 3))
+#print(multi(1, 2, 3))
+
+def tups():
+    x =(1,2,4)
+    print(type(x), x)
+    print('tuples are immutable')
+
+#lists
+def lst():
+    x =[1, 2, 4]
+    x.append(2);
+    print(type(x), x)
+    print('lists are mutable')
+
+#Dictionaries
+def diction():
+    dy = {'a':20 , 'b': 24, 'c': 10}
+    for k in dy:
+        print(k, dy[k])
+    d = dict(
+        nev = 20,
+        eri = 12,
+        sam = 8
+        )
+    d['dean'] = 15;
+    for k in sorted(d.keys()):
+        print(k, d[k])
