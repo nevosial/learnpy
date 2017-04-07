@@ -30,6 +30,33 @@ def main():
     print(str)
 
 # the for loop in Python
+names = [1,2, 3, 4]
+    for d in names:
+        print(d)
+
+# using the enumerator to get the index for our array/lists
+    s = 'my name is Eric'
+    for i, c in enumerate(s):
+        print(i, c)
+        if c == 'E' : print(' The index for E is {}'.format(i))
+
+# using continue, break and else
+    s = 'this is a string'
+    for c in s:
+        if c == 's' : continue
+        print(c, end='')
+
+    s = 'this is a string'
+    for c in s:
+        if c == 's' : break
+        print(c, end='')
+
+
+    s = 'this is a string'
+    for c in s:
+        print(c, end='')
+    else:
+        print('Else is used when the iterator has nothing more to iterate.')
 
 
 
