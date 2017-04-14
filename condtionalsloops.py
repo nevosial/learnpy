@@ -35,7 +35,7 @@ i = 0
 while(i < len(names)):
     print(i)
     i += 1
-    
+
 # fibonaci numbers using while
     a, b = 0, 1
     while b < 50:
@@ -74,6 +74,22 @@ names = [1,2, 3, 4]
         print('Else is used when the iterator has nothing more to iterate.')
 
 
+# using continue statement
+def main():
+    s = 'Dan'
+    p1 = 'abc123'
+    while True:
+        print('Please enter your name:')
+        name = str(input());
+        if name != s:
+            continue
+        print('Enter your code:')
+        code = input()
+        if code == p1:
+            break;
+        else:
+            print('Please enter the correct name/code combination !')
+    print('Hi {} Welcome to the vault...'.format(name))
 
 
 if __name__== '__main__':main()
