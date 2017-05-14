@@ -31,4 +31,4 @@ if __name__ == '__main__':
     print(approximate_size(1000000000000, False))
     print(approximate_size(1000000000000))
 
-#Go to a drive and run this file.
+#Go to a drive and run this file from the command line.
