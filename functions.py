@@ -28,6 +28,7 @@ def pwr(num , x=1):
 
 #Function with variable number of arguments
 #Here args is the list that is passed to the function.
+#sometimes called as unpacker.
 def multi(*args):
     result = 0;
     for i in args:
@@ -36,12 +37,14 @@ def multi(*args):
 
 #print(multi(1, 2, 3))
 
+#tuples are immutable.
 def tups():
     x =(1,2,4)
     print(type(x), x)
     print('tuples are immutable')
 
-#lists
+    
+#lists are mutable.
 def lst():
     x =[1, 2, 4]
     x.append(2);
