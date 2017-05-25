@@ -23,5 +23,5 @@ def memoize(f):
 
 fib = memoize(fib)
 
-#The diferrence in execution is noticeable
+#The diferrence in execution time is noticeable.
 print(fib(34))
