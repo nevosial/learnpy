@@ -3,7 +3,7 @@ Contains the solutions to the problems that i have solved from from the book Div
 
 ##### Layout
 
-Contains exercises and programming projects from each chapter.
+Contains exercises and programming projects from each chapter of the book.
 
 They are named the following style: (ex:exercises, pp:progrmming projects)
 - dip001.py
