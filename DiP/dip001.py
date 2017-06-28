@@ -1,5 +1,5 @@
 #Example from Dive into python
-# Chapter 1 Program number 001
+# Chapter 1 Example number 001
 
 SUFFIXES = {1000: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
             1024: ['KiB', 'MiB', 'GiB', 'TiB', 'PiB', 'EiB', 'ZiB', 'YiB']
