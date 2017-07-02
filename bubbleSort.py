@@ -9,6 +9,7 @@ def bubbleSort(alist):
                 alist[i+1] = temp
 
 
-alist = [54,26,93,17,77,31,44,55,20]
+#alist = [54,26,93,17,77,31,44,55,20]
+alist = [0,13,5,923,67,81,39,63]
 bubbleSort(alist)
 print(alist)
