@@ -11,6 +11,8 @@ def selectionSort(alist):
        alist[filler] = alist[indexMax]
        alist[indexMax] = temp
 
+ 
+//Example
 alist = [68,26,83,11,77,91,44,35,2]
 selectionSort(alist)
 print(alist)
