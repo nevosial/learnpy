@@ -14,5 +14,6 @@ def selectionSort(alist):
  
 //Example
 alist = [68,26,83,11,77,91,44,35,2]
+alist = [68,26,11,11,77,91,44,35,2]
 selectionSort(alist)
 print(alist)
