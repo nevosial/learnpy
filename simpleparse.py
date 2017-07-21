@@ -52,3 +52,5 @@ import time
   td= datetime.datetime.now() - datetime.datetime.fromtimestamp(path.getmtime("textfile.txt"))
   print ("It has been " + str(td) + "The file was modified")
   print ("Or, " + str(td.total_seconds()) + " seconds")
+  print ("Or, " + str(td.total_seconds()) + " seconds")
+  
