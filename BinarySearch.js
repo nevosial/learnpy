@@ -23,3 +23,5 @@ function bSearch(arr , target){
 	}
 	return -1;
 }
+
+#example.
