@@ -24,4 +24,4 @@ function bSearch(arr , target){
 	return -1;
 }
 
-//example.
+//array must be sorted. 
