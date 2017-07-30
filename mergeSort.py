@@ -31,6 +31,6 @@ def mergeSort(alist):
             k=k+1
     print("Merging ",alist)
 
-#alist = [541,216,933,157,787,311,494,355,120]
+#alist = [541,216,933,157,787,311,494,355,120,345]
 #mergeSort(alist)
 #print(alist)
