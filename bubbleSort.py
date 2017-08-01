@@ -13,3 +13,5 @@ def bubbleSort(alist):
 alist = [0,13,5,923,67,81,39,63]
 bubbleSort(alist)
 print(alist)
+
+#new list [0.34, 1.2, -1.2, 0, 41]
