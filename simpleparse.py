@@ -43,7 +43,7 @@ import time
   print ("Item's path: " + str(path.realpath("textfile.txt")))
   print ("Item's path and name: " + str(path.split(path.realpath("textfile.txt"))))
 
-    # Get the modification time
+    # Get the modification time uses the time library.
   t = time.ctime(path.getmtime("textfile.txt"))
   print (t)
   print (datetime.datetime.fromtimestamp(path.getmtime("textfile.txt")))
@@ -52,3 +52,5 @@ import time
   td= datetime.datetime.now() - datetime.datetime.fromtimestamp(path.getmtime("textfile.txt"))
   print ("It has been " + str(td) + "The file was modified")
   print ("Or, " + str(td.total_seconds()) + " seconds")
+  print ("Or, " + str(td.total_seconds()) + " seconds")
+  

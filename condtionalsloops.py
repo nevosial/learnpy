@@ -20,6 +20,8 @@ def main():
     #will print default if input is not in the dict.
 
 #conditional expression.
+# Traditional way.
+# One liner.
     x, y = 0, 1
     if x > y:
         print('x is bigger than y')
@@ -49,6 +51,7 @@ names = [1,2, 3, 4]
     for d in names:
         print(d)
 
+        
 # using the enumerator to get the index for our array/lists
     s = 'my name is Eric'
     for i, c in enumerate(s):

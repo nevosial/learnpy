@@ -36,4 +36,4 @@ def main():
 
 if __name__ == "__main__": main()
 
-#Exceptions can also be raised using the raise.
+#Exceptions can also be raised using the raise methiod.

@@ -1,5 +1,5 @@
 #Example from Dive into python
-# Chapter 1 Program number 001
+# Chapter 1 Example number 001
 
 SUFFIXES = {1000: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
             1024: ['KiB', 'MiB', 'GiB', 'TiB', 'PiB', 'EiB', 'ZiB', 'YiB']
@@ -30,3 +30,8 @@ def approximate_size(size , a_kilobyte_is_1024_bytes= True):
 if __name__ == '__main__':
     print(approximate_size(1000000000000, False))
     print(approximate_size(1000000000000))
+
+#Go to a drive and run this file preferably from the command line.
+#
+#
+#
