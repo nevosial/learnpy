@@ -1,3 +1,4 @@
+# Simple guessing game.
 import random
 import time
 
