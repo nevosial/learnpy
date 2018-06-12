@@ -17,3 +17,5 @@ Name: {fname} {lname}
 Age: {age}
 Gender: {gender}
 """)
+
+print("==============")
