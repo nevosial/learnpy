@@ -13,3 +13,11 @@ print(y)
 print(f"I said: {x}")
 print(f"I said: \"{x}\"")
 print(f"I also said:'{y}'")
+
+hilarious = False
+joke_eval = "Isn't that joke funny?! {}"
+print(joke_eval.format(hilarious))
+
+w = "left side"
+e = "right side"
+print(w+e)
